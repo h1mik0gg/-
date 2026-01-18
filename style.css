@@ -1,0 +1,137 @@
+body {
+  margin: 0;
+  font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #E0C4AD;
+}
+
+header {
+  background-color: #B06B36;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 200px;
+}
+
+.logo {
+  font-size: 42px;
+  line-height: 1.1;
+}
+
+.menu {
+  list-style: none;
+  display:flex;
+  gap: 150px;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li a {
+  color: white;
+  text-decoration: none;
+  font-size: 32px;
+}
+
+.menu li a:hover {
+  text-decoration: none;
+  color: #8D3D00;
+}
+
+section {
+  text-align:center;
+  padding: 40px 20px;
+  color:#8D3D00;
+  
+}
+
+.veranda img {
+  width: 100%;
+  max-width: 900px;
+  border-radius: 15px;
+}
+
+.veranda h2 {
+  font-size: 42px;
+}
+
+.menu-section h2 {
+  font-size: 42px;
+  margin-bottom: 20px;
+}
+
+.menu-columns {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  text-align: center;
+}
+
+.menu-columns h3 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.menu-columns ul {
+  list-style: none;
+  padding: 0;
+  font-size: 24px;
+  line-height: 1.8;
+}
+
+.bron {
+  background-color: #E0C4AD;
+  padding: 50px 20px;
+}
+
+.bron h2 {
+  font-size: 42px;
+}
+
+.bron p {
+  max-width: 800px;
+  margin: 10px auto;
+  line-height: 1.6;
+  font-size: 24px;
+}
+
+button {
+  background-color: #B06B36;
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 52px;
+  font-size: 32px;
+  cursor: pointer;
+  margin-top: 20px;
+  font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+button:hover {
+  background-color: #8D3D00;
+}
+
+footer {
+  background-color: #B06B36;
+  color: white;
+  text-align: center;
+  padding: 10px 10px;
+  font-weight: 100;
+}
+
+.footer-info {
+  display: flex;
+  justify-content: center;
+  gap: 200px;
+  flex-wrap: wrap;
+  font-size: 15px;
+}
